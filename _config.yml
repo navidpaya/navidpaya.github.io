@@ -1,0 +1,7 @@
+name: Navid Paya
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+author:
+  blog:     "http://blog.navidpaya.com/"
+  linkedin: "https://my.linkedin.com/in/navidpaya"
+  github:   "https://github.com/navidpaya"

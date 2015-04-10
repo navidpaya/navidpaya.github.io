@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+  
+  </head>
+
+
+  <body>
+    <nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href= mailto:me@navidpaya.com >Email</a></li>
+<li><a href= {{ site.author.blog }} >Blog</a></li>
+<li><a href= {{ site.author.linkedin }} >LinkedIn</a></li>
+<li><a href= {{ site.author.github }} >GitHub</a></li>
+</ul>
+    </nav>
+<div class="container">
+
+  {{ content }}
+
+</div>
+  
+  <footer>
+   <ul>
+   </ul>
+  </footer>
+  </body>
+
+</html>
